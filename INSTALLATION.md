@@ -11,6 +11,16 @@ Lade das freigegebene Paket auf der [Download-Seite](https://github.com/Jan204/P
 
 Melde dich über **Mit Discord anmelden** mit deinem eigenen Konto an. Wähle oben die **Discord-Community**, den **LS-Server** und den **Aufgabenbereich/Hof**. Sichtbar sind nur Bereiche, für die du berechtigt bist.
 
+## Übersicht und Kennzahlen
+
+Oberhalb der Servertabelle stehen die Kennzahlen für den ausgewählten Bereich/Hof:
+
+- **Aufgaben Offen / Gesamt:** Offen zählt Aufgaben mit dem Status „Offen“. Gesamt umfasst alle sichtbaren, nicht archivierten Aufgaben einschließlich erledigter Aufgaben.
+- **Handel Offen / Gesamt / Angeboten:** Offen und Gesamt zählen die sichtbaren, nicht archivierten Handelsaufträge. Angeboten zählt deine selbst erstellten, noch offenen Angebote.
+- **Fuhrpark Anzahl:** Anzahl der Fahrzeuge und Geräte in der berechtigten Fuhrparkansicht. Jede aufgeführte Meldung zählt.
+
+Halte den Mauszeiger über eine Überschrift, Zahl oder Beschriftung für eine kurze Erklärung. „—“ bedeutet, dass die Zählwerte noch nicht aktuell geladen oder nicht freigegeben sind. Alte Summen aus dem lokalen Cache werden erst nach einem aktuellen Abgleich angezeigt. Die Gesamtzahlen sind nicht auf die erste Listenseite mit 50 Einträgen begrenzt.
+
 ## 2. LS25 und den Modordner auswählen
 
 In **Einstellungen** kannst du das LS25-Profil unter `Documents\My Games\FarmingSimulator2025` und die Spielanwendung auswählen.

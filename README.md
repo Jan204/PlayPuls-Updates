@@ -8,6 +8,7 @@ Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayP
 
 ## Was bietet das Tool?
 
+- **Übersicht:** Aufgaben offen/gesamt, Handel offen/gesamt/deine offenen Angebote und die Fuhrparkanzahl für den ausgewählten Bereich/Hof. Mausover erklärt die Kennzahlen.
 - **Ingame-Mod:** Aufgaben auswählen, übernehmen und Arbeitsschritte erledigen; Handelsaufträge und Fuhrpark direkt im Spiel ansehen.
 - **Aufgabenverwaltung:** Aufgaben mit Ziel, Beschreibung, Früchten, Planung und Arbeitsschritten in der App bearbeiten. Aktivierte Monatsreminder erinnern an den passenden Spielmonat.
 - **Handel:** Handelsaufträge und Lieferungen mit Artikeln, Mengen, Einheiten, Preisen und Fristen verwalten.
