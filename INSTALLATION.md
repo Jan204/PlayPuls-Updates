@@ -9,6 +9,8 @@ Lade das freigegebene Paket auf der [Download-Seite](https://github.com/Jan204/P
 - **Installer:** `PlayPuls-0.0.0.2-Setup.exe` installiert die App für dein Windows-Benutzerkonto.
 - **Portable:** `PlayPuls-0.0.0.2-Portable.zip` vollständig entpacken. Öffne `PlayPuls.exe` im entpackten Ordner; die zugehörigen Unterordner müssen erhalten bleiben.
 
+**Verbindungskorrektur vom 12.10.2026:** Die Pakete bleiben bei **0.0.0.2**. Ist diese Version bereits installiert, lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Deine gespeicherten Einstellungen bleiben erhalten. Beim Portable-Paket verwende einen frisch entpackten Ordner. Ein Updatehinweis erscheint erst bei einer höheren Versionsnummer.
+
 Melde dich über **Mit Discord anmelden** mit deinem eigenen Konto an. Wähle oben die **Discord-Community**, den **LS-Server** und den **Aufgabenbereich/Hof**. Sichtbar sind nur Bereiche, für die du berechtigt bist.
 
 ## Übersicht und Kennzahlen

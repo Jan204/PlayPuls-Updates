@@ -4,7 +4,7 @@ Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayP
 
 **App und Mod: Version 0.0.0.2.** Installer, Portable-Paket und LS25-Mod stehen im öffentlichen Release zum Download bereit.
 
-[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung](INSTALLATION.md) · [Prüfstand](TESTBERICHT.md)
+[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung](INSTALLATION.md)
 
 ## Was bietet das Tool?
 
@@ -25,6 +25,8 @@ Welche Daten und Aktionen verfügbar sind, hängt von deiner Discord-Community, 
 Für Windows mit 64 Bit. Im Release stehen der `.exe`-Installer, das Portable-`.zip` sowie die passende LS25-Mod bereit. Jede Download-Datei und `update.json` haben eine eigene `.sha256`-Prüfsummendatei. Für das Portable-Paket den gesamten Inhalt entpacken und anschließend `PlayPuls.exe` öffnen.
 
 [Zur Installation und Einrichtung](INSTALLATION.md)
+
+Die Pakete vom **12.10.2026** korrigieren ein Verbindungsproblem unter Windows. Die Version bleibt **0.0.0.2**. Wenn diese Version bereits installiert ist, lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Derselbe Versionsstand löst keinen automatischen Updatehinweis aus.
 
 ## Häufige Fragen
 
