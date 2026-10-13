@@ -6,6 +6,12 @@ Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayP
 
 [Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung](INSTALLATION.md)
 
+## So funktioniert die Verbindung
+
+![So kommunizieren App, Tool und PlayPuls-Server](assets/playpuls-verbindung-einfach-erklaert.jpeg)
+
+App und Tool laufen gemeinsam auf deinem PC. Der persönliche Code verknüpft die Spielverbindung einmalig; anschließend bleibt sie geschützt gespeichert, solange sie gültig und berechtigt ist.
+
 ## Was bietet das Tool?
 
 - **Übersicht:** Aufgaben offen/gesamt, Handel offen/gesamt/deine offenen Angebote und die Fuhrparkanzahl für den ausgewählten Bereich/Hof. Mausover erklärt die Kennzahlen.
