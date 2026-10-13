@@ -26,7 +26,7 @@ Für Windows mit 64 Bit. Im Release stehen der `.exe`-Installer, das Portable-`.
 
 [Zur Installation und Einrichtung](INSTALLATION.md)
 
-Die Pakete vom **12.10.2026** korrigieren ein Verbindungsproblem unter Windows. Die Version bleibt **0.0.0.2**. Wenn diese Version bereits installiert ist, lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Derselbe Versionsstand löst keinen automatischen Updatehinweis aus.
+Die aktuellen Pakete verwenden **0.0.0.3**. Der Update-Dialog bietet **Download** oder **Abbrechen** und nach dem geprüften Download **Jetzt neu starten** oder **Später neu starten**. Wenn 0.0.0.3 bereits installiert ist, lade den korrigierten Installer erneut herunter und installiere ihn manuell. Derselbe Versionsstand löst keinen automatischen Updatehinweis aus.
 
 ## Häufige Fragen
 
@@ -49,6 +49,8 @@ Die Logansicht liest Dateien nur auf deine Aktion hin lokal ein. Die Originaldat
 ### Wie funktionieren Updates?
 
 Öffne **Einstellungen → Updates prüfen**. Ein verfügbares Update wird im Programm heruntergeladen und vor der Installation geprüft. Dafür muss ein veröffentlichtes Paket mit digital signierten Updateinformationen vorliegen. Der Updater prüft die Signatur sowie Dateigröße und SHA-256 des Installers. Prüfsummen allein ersetzen keine Signatur. Änderungen mit derselben Versionsnummer lösen kein Versionsupdate aus. Während LS25 läuft, wird kein Toolupdate installiert.
+
+Ab 0.0.0.3 entscheidest du nach dem Download, ob du **Jetzt neu starten** oder **Später neu starten** möchtest. Bei „Später“ bleibt die App geöffnet; unter **Einstellungen → Update herunterladen** kannst du die Installation später fortsetzen. Die optionale Automatik lädt nur herunter und wartet ebenfalls auf deine Neustartbestätigung.
 
 ### Kann ich ohne Verbindung alle gespeicherten Daten verwenden?
 

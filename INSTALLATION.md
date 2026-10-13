@@ -56,6 +56,12 @@ Die bestätigte Verbindung bleibt auf dem PC gespeichert. App- oder Spielneustar
 
 Sichtbare Arbeitsansichten werden automatisch etwa alle 15 Sekunden abgeglichen. Manuelles Aktualisieren unterliegt einer gemeinsamen Wartezeit von drei Sekunden je Community. Berechtigte lokale Daten können nach Rechteprüfung sofort erscheinen, während der aktuelle Stand im Hintergrund geladen wird.
 
+## Programm aktualisieren
+
+Öffne **Einstellungen → Updates prüfen**. Ab Version 0.0.0.3 bietet ein verfügbares Update **Download** oder **Abbrechen**. Nach dem geprüften Download wählst du **Jetzt neu starten** oder **Später neu starten**. Erst nach deiner Bestätigung wird PlayPuls geschlossen, das Update installiert und die App wieder geöffnet. Bei „Später“ bleibt die App geöffnet; du kannst unter **Einstellungen → Update herunterladen** fortsetzen. Auch automatisch heruntergeladene Updates warten auf diese Bestätigung. Während LS25 läuft, wird nicht installiert.
+
+Wenn bereits 0.0.0.3 installiert ist, muss das korrigierte Paket einmal manuell installiert werden, weil die Versionsnummer gleich bleibt.
+
 ## Wenn etwas fehlt
 
 Prüfe zuerst Community, Server und Aufgabenbereich sowie deinen oben angezeigten LS-Rang. Fehlende Hofrechte oder eine fehlende Zuordnung können Aktionen einschränken. Prüfe danach die Spielverbindung in den Einstellungen und die Hinweise in der Fußzeile.
