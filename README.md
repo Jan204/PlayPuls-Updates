@@ -65,3 +65,5 @@ Private Daten aus dem lokalen Cache werden erst nach aktueller Rechteprüfung an
 
 Hilfe bekommst du im [Discord](https://discord.gg/uMnajk3Fnp) oder über das [Kontaktformular](https://dein-gamepuls.de/kontakt-gamepuls/).
 Du kannst auch auf [PlayPuls](https://play-puls.de) **Support** öffnen und ein Ticket erstellen.
+
+[VirusTotal-Prüfbericht für PlayPuls 0.0.0.3](https://www.virustotal.com/gui/file/e83cf6a051a7a1b520cc052de82122355b809c80231757ee31c491a941ccea88?nocache=1) – 1 von 68 Engines meldet einen Verdacht.
