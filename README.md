@@ -2,7 +2,9 @@
 
 Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayPuls-Mod für Landwirtschafts-Simulator 25 mit deiner PlayPuls-Community. Eine 32-Bit-Ausgabe wird nicht angeboten.
 
-**App und Mod: Version 0.0.0.2.** Installer, Portable-Paket und LS25-Mod stehen im öffentlichen Release zum Download bereit.
+**Veröffentlicht: Version 0.0.0.3.** Installer, Portable-Paket und LS25-Mod stehen im [öffentlichen Release](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.3) zum Download bereit.
+
+**In Vorbereitung: Version 0.0.0.4.** Diese Version ist noch nicht veröffentlicht. Die derzeitigen Downloads gehören zu 0.0.0.3.
 
 [Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung](INSTALLATION.md)
 

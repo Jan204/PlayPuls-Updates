@@ -1,15 +1,15 @@
 # PlayPuls einrichten
 
-App und LS25-Mod: **0.0.0.2**. Voraussetzung ist ein Windows-PC mit 64 Bit und eine PlayPuls-Community, in der du für die gewünschten LS-Bereiche berechtigt bist.
+Veröffentlichte App und LS25-Mod: **0.0.0.3**. Version **0.0.0.4** wird vorbereitet und ist noch nicht veröffentlicht. Voraussetzung ist ein Windows-PC mit 64 Bit und eine PlayPuls-Community, in der du für die gewünschten LS-Bereiche berechtigt bist.
 
 ## 1. Programm starten
 
 Lade das freigegebene Paket auf der [Download-Seite](https://github.com/Jan204/PlayPuls-Updates/releases/latest).
 
-- **Installer:** `PlayPuls-0.0.0.2-Setup.exe` installiert die App für dein Windows-Benutzerkonto.
-- **Portable:** `PlayPuls-0.0.0.2-Portable.zip` vollständig entpacken. Öffne `PlayPuls.exe` im entpackten Ordner; die zugehörigen Unterordner müssen erhalten bleiben.
+- **Installer:** `PlayPuls-0.0.0.3-Setup.exe` installiert die App für dein Windows-Benutzerkonto.
+- **Portable:** `PlayPuls-0.0.0.3-Portable.zip` vollständig entpacken. Öffne `PlayPuls.exe` im entpackten Ordner; die zugehörigen Unterordner müssen erhalten bleiben.
 
-**Verbindungskorrektur vom 12.10.2026:** Die Pakete bleiben bei **0.0.0.2**. Ist diese Version bereits installiert, lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Deine gespeicherten Einstellungen bleiben erhalten. Beim Portable-Paket verwende einen frisch entpackten Ordner. Ein Updatehinweis erscheint erst bei einer höheren Versionsnummer.
+**Korrigierte Pakete mit gleicher Versionsnummer:** Ist die veröffentlichte Version bereits installiert, löst ein Austausch ihrer Download-Dateien keinen neuen Versionshinweis aus. Für eine solche Korrektur lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Deine gespeicherten Einstellungen bleiben erhalten. Beim Portable-Paket verwende einen frisch entpackten Ordner. Ein Updatehinweis erscheint erst bei einer höheren veröffentlichten Versionsnummer.
 
 Melde dich über **Mit Discord anmelden** mit deinem eigenen Konto an. Wähle oben die **Discord-Community**, den **LS-Server** und den **Aufgabenbereich/Hof**. Sichtbar sind nur Bereiche, für die du berechtigt bist.
 
