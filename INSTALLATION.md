@@ -76,6 +76,6 @@ Game News, Guides uvm.: https://dein-gamepuls.de
 
 ## Programm aktualisieren
 
-Unter Einstellungen auf „Updates prüfen“ klicken. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
+Unter Einstellungen auf „Updates prüfen“ klicken. Bei einem verfügbaren neueren Update mit „Ja“ herunterladen oder mit „Später“ aufschieben. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
 
 Wer bereits ein lokales Testpaket 0.0.0.4 nutzt, installiert den öffentlichen Installer manuell: Dieselbe Versionsnummer löst keinen automatischen Versionshinweis aus. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP; dieselbe Versionsnummer allein genügt bei unterschiedlichen Dateien nicht.

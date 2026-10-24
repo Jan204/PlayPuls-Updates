@@ -14,15 +14,17 @@ Prüfungen nötig; eine unveränderte Versionsnummer reicht nicht als Nachweis.
 
 | Datei | SHA-256 | Abschließender Bericht |
 | --- | --- | --- |
-| Installer | `f2d4f6a21ef4da940c203e6972fc357739cf2690e89638fae44a287b7da10092` | [1 von 68 Engines meldet einen Verdacht](https://www.virustotal.com/gui/file/f2d4f6a21ef4da940c203e6972fc357739cf2690e89638fae44a287b7da10092) |
-| PlayPuls.exe | `6e835a8d97a8c9b676b337e7833f55bdcbdf9e1485d0bc92ef0b81d852ffd05d` | [5 von 70 Engines melden einen Verdacht](https://www.virustotal.com/gui/file/6e835a8d97a8c9b676b337e7833f55bdcbdf9e1485d0bc92ef0b81d852ffd05d) |
+| Installer | `c7997e2571d94055abf5732875042fe1f22ce3b45fe91df884f92fd0c7f7d274` | [2 von 69 Engines melden einen Verdacht](https://www.virustotal.com/gui/file/c7997e2571d94055abf5732875042fe1f22ce3b45fe91df884f92fd0c7f7d274) |
+| PlayPuls.exe | `de35bff8f191f23051ccc13c70432627b034b6761707a6555fe1374df08ddcb6` | [5 von 70 Engines melden einen Verdacht](https://www.virustotal.com/gui/file/de35bff8f191f23051ccc13c70432627b034b6761707a6555fe1374df08ddcb6) |
 
-Abschlusszeiten laut Berichten: Installer 24.10.2026 – 18:31:40,
-EXE 24.10.2026 – 18:34:29 (Europe/Berlin). Die Analyse war beendet;
-nicht jede Engine hat ein auswertbares Ergebnis geliefert.
+Analysezeiten laut abgeschlossenen Berichten: Installer 24.10.2026 – 19:06:33,
+EXE 24.10.2026 – 19:06:58 (Europe/Berlin). Nicht jede Engine hat ein
+verwertbares Ergebnis geliefert. Diese Berichte ersetzen die Links des früheren
+Builds mit derselben Versionsnummer.
 
-Installer: Trapmine `Suspicious.low.ml.score`; 67 Engines ohne Erkennung.
-ClamAV und TEHTRIS: Zeitüberschreitung. Google: Prüfungsfehler.
+Installer: Trapmine `Suspicious.low.ml.score` und Zillya
+`Trojan.Blank.Script.2228`; 67 Engines ohne Erkennung.
+ClamAV und TEHTRIS: Zeitüberschreitung.
 Avast-Mobile, BitDefenderFalx, Symantec Mobile Insight und Trustlook:
 Dateityp nicht unterstützt. Diese Ergebnisse zählen nicht als „sauber“.
 
@@ -36,7 +38,7 @@ EXE: 65 Engines ohne Erkennung. Gemeldete Funde:
 | Skyhigh (SWG) | `BehavesLike.Win64.Backdoor.vc` |
 | Zillya | `Trojan.Blank.Script.2228` |
 
-Google: Prüfungsfehler. Dieselben vier mobilen Engines unterstützen den
+Jiangmin: Prüfungsfehler. Dieselben vier mobilen Engines unterstützen den
 Dateityp nicht. VirusTotal sammelt die Bewertungen unabhängiger Hersteller;
 die Bewertung eines einzelnen Herstellers kann VirusTotal nicht aufheben.
 [Erklärung von VirusTotal](https://docs.virustotal.com/docs/false-positive).
@@ -51,7 +53,7 @@ Klärung an die jeweiligen Sicherheitsanbieter.
 [Hinweis der PyInstaller-Maintainer](https://github.com/pyinstaller/pyinstaller/issues/6062).
 
 Das ist eine plausible Erklärung für heuristische Erkennungen, **kein Nachweis,
-dass genau diese fünf Meldungen falsch sind**. Auch Bezeichnungen mit `ml` oder
+dass genau diese Meldungen falsch sind**. Auch Bezeichnungen mit `ml` oder
 `BehavesLike` erlauben keine abschließende Entwarnung. Funktionstests, der
 Abgleich der gebündelten App-Module mit dem Quellstand und bestandene
 Funktionstests belegen die geprüfte Funktion und Herkunft des Builds; sie ersetzen

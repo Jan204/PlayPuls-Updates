@@ -72,9 +72,9 @@ Private Online-Daten aus dem App-Cache erfordern weiterhin eine aktuelle Rechtep
 
 ### VirusTotal und Windows-Hinweis zu 0.0.0.4
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.4 – Installer](https://www.virustotal.com/gui/file/f2d4f6a21ef4da940c203e6972fc357739cf2690e89638fae44a287b7da10092) – 1 von 68 Engines meldet einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 0.0.0.4 – Installer](https://www.virustotal.com/gui/file/c7997e2571d94055abf5732875042fe1f22ce3b45fe91df884f92fd0c7f7d274) – 2 von 69 Engines melden einen Verdacht.
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.4 – Programmdatei](https://www.virustotal.com/gui/file/6e835a8d97a8c9b676b337e7833f55bdcbdf9e1485d0bc92ef0b81d852ffd05d) – 5 von 70 Engines melden einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 0.0.0.4 – Programmdatei](https://www.virustotal.com/gui/file/de35bff8f191f23051ccc13c70432627b034b6761707a6555fe1374df08ddcb6) – 5 von 70 Engines melden einen Verdacht.
 
 Die Funde sind nicht als Fehlalarme bestätigt. Eine mögliche Erklärung sind
 heuristische Erkennungen des mit PyInstaller gebündelten Programms; daraus
@@ -84,5 +84,3 @@ nicht die Nutzungslizenz. [Prüfgrund, Befunde, Datenzugriffe und Lizenzhinweis]
 
 Hilfe bekommst du im [Discord](https://discord.gg/uMnajk3Fnp) oder über das [Kontaktformular](https://dein-gamepuls.de/kontakt-gamepuls/).
 Du kannst auch auf [PlayPuls](https://play-puls.de) **Support** öffnen und ein Ticket erstellen.
-
-**Mehrspieler-Hinweis:** Der gemeinsame Betrieb mit Host und weiterem Spieler ist noch nicht abschließend geprüft.
