@@ -1,83 +1,81 @@
-# PlayPuls einrichten
+# PlayPuls 0.0.0.4 einrichten
 
-Veröffentlichte App und LS25-Mod: **0.0.0.3**. Version **0.0.0.4** wird vorbereitet und ist noch nicht veröffentlicht. Voraussetzung ist ein Windows-PC mit 64 Bit und eine PlayPuls-Community, in der du für die gewünschten LS-Bereiche berechtigt bist.
+Windows 64-Bit (x64). [Download](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.4) · [Patchnotes und Hilfe](https://github.com/Jan204/PlayPuls-Updates/releases/download/v0.0.0.4/readme.txt) · [VirusTotal und SmartScreen](VIRUSTOTAL_0.0.0.4.md)
 
-## 1. Programm starten
+Installer verwenden oder das Portable-ZIP vollständig entpacken und PlayPuls.exe öffnen. Zugehörige Unterordner müssen erhalten bleiben.
 
-Lade das freigegebene Paket auf der [Download-Seite](https://github.com/Jan204/PlayPuls-Updates/releases/latest).
+## Erste Schritte
 
-- **Installer:** `PlayPuls-0.0.0.3-Setup.exe` installiert die App für dein Windows-Benutzerkonto.
-- **Portable:** `PlayPuls-0.0.0.3-Portable.zip` vollständig entpacken. Öffne `PlayPuls.exe` im entpackten Ordner; die zugehörigen Unterordner müssen erhalten bleiben.
+### 1. Mit Discord anmelden
 
-**Korrigierte Pakete mit gleicher Versionsnummer:** Ist die veröffentlichte Version bereits installiert, löst ein Austausch ihrer Download-Dateien keinen neuen Versionshinweis aus. Für eine solche Korrektur lade den aktuellen Installer erneut herunter, beende PlayPuls und installiere ihn manuell. Deine gespeicherten Einstellungen bleiben erhalten. Beim Portable-Paket verwende einen frisch entpackten Ordner. Ein Updatehinweis erscheint erst bei einer höheren veröffentlichten Versionsnummer.
+Oben in der App auf „Mit Discord anmelden“ klicken. Im Browser mit deinem eigenen Discord-Konto anmelden und die Freigabe für PlayPuls bestätigen. Danach zur App zurückkehren. Oben erscheint dein Name.
 
-Melde dich über **Mit Discord anmelden** mit deinem eigenen Konto an. Wähle oben die **Discord-Community**, den **LS-Server** und den **Aufgabenbereich/Hof**. Sichtbar sind nur Bereiche, für die du berechtigt bist.
+### 2. Community, Server und Bereich / Hof wählen
 
-## Übersicht und Kennzahlen
+Unter Spielwelt → Server die gewünschte Community, den LS-Server und den Bereich / Hof auswählen. Fehlt die Auswahl, muss dir die Communityverwaltung den passenden Zugriff freigeben.
 
-Oberhalb der Servertabelle stehen die Kennzahlen für den ausgewählten Bereich/Hof:
+### 3. Spiel und Modordner vorbereiten
 
-- **Aufgaben Offen / Gesamt:** Offen zählt Aufgaben mit dem Status „Offen“. Gesamt umfasst alle sichtbaren, nicht archivierten Aufgaben einschließlich erledigter Aufgaben.
-- **Handel Offen / Gesamt / Angeboten:** Offen und Gesamt zählen die sichtbaren, nicht archivierten Handelsaufträge. Angeboten zählt deine selbst erstellten, noch offenen Angebote.
-- **Fuhrpark Anzahl:** Anzahl der Fahrzeuge und Geräte in der berechtigten Fuhrparkansicht. Jede aufgeführte Meldung zählt.
+LS25 vollständig schließen. In Einstellungen das LS25-Profil und die Spielanwendung prüfen. Unter Tools → Modordner ein Ordnerprofil mit Name und Pfad anlegen oder auswählen und aktivieren. Die Zuordnung bestimmt, zu welchem Server der Ordner gehört. Über die Ordnereinstellungen „PlayPuls Mod herunterladen und einfügen“ wählen. Host und Mitspieler benötigen dieselbe Mod-ZIP.
 
-Halte den Mauszeiger über eine Überschrift, Zahl oder Beschriftung für eine kurze Erklärung. „—“ bedeutet, dass die Zählwerte noch nicht aktuell geladen oder nicht freigegeben sind. Alte Summen aus dem lokalen Cache werden erst nach einem aktuellen Abgleich angezeigt. Die Gesamtzahlen sind nicht auf die erste Listenseite mit 50 Einträgen begrenzt.
+Alternativ unter Einstellungen → Mod & Updates → „PlayPuls Mod speichern unter…“ die Mod an einem beliebigen Ort speichern und selbst in den Modordner kopieren. Vorhandene Moddateien nur bei geschlossenem Spiel ersetzen.
 
-## 2. LS25 und den Modordner auswählen
+### 4. LS25 starten
 
-In **Einstellungen** kannst du das LS25-Profil unter `Documents\My Games\FarmingSimulator2025` und die Spielanwendung auswählen.
+Die PlayPuls-Mod für den gewünschten Spielstand aktivieren und den Spielstand laden. Für Online-Funktionen muss die App geöffnet bleiben. Offline kannst du die Mod ohne App verwenden.
 
-Unter **Tools → Modordner** verwaltest du benannte Profile für unterschiedliche Server oder Maps. Nur der aktive Ordner wird von LS25 geladen. Vor einem Wechsel muss LS25 vollständig geschlossen sein; die Spielkonfiguration wird vor der Anpassung gesichert.
+### 5. Eigenen Verbindungscode anfordern
 
-Über die Einstellungen eines Ordnerprofils kannst du **Mod herunterladen und einfügen** wählen. Das zum Programm gehörende, geprüfte Modpaket wird in diesen Ordner eingefügt. Alternativ kopiere `FS25_PlayPuls.zip` aus dem Release in den gewünschten Modordner. Eine vorhandene Datei erst ersetzen, wenn das Spiel geschlossen ist.
+In der App Einstellungen → Mod & Updates → Mod-ID · Eigene Spielverbindung öffnen. Die Community und den Server prüfen; bei Bedarf über „Community / Server wählen…“ ändern. „Eigenen Code anfordern“ und anschließend „Kopieren“ wählen. Der Code ist fünf Minuten gültig und gehört zu deinem Konto. Nicht weitergeben.
 
-Für Multiplayer müssen Host und Mitspieler das identische Modpaket verwenden. Dieselbe Versionsnummer allein reicht bei unterschiedlichen Dateien nicht aus.
+### 6. Code in der Mod eingeben
 
-## 3. Spielverbindung herstellen
+Mit Strg+P das PlayPuls-HUD öffnen. Mit der mittleren Maustaste den Mauszeiger aktivieren. Im HUD „Einstellungen“ öffnen, den Code eingeben und „Discord verbinden“ wählen. Die bestätigte Verbindung abwarten.
 
-Fordere in **Einstellungen → Mod-ID** einen eigenen Verbindungscode an. Starte LS25, aktiviere die PlayPuls-Mod und löse den Code in den Einstellungen des Spiel-HUDs ein.
+Discord-Anmeldung in der App und Spielverbindung per Code sind zwei getrennte Schritte. Die bestätigte Spielverbindung bleibt auf diesem PC gespeichert. Bei unveränderter und weiterhin berechtigter Zuordnung brauchst du nach einem normalen Neustart keinen neuen Code. Bei einer anderen Community, einem anderen Server oder Aufgabenbereich einen neuen Code anfordern und in der Mod eingeben. Ein neuer Code kann die alte Verbindung ersetzen. Ein Hofwechsel innerhalb desselben Aufgabenbereichs benötigt keinen neuen Code.
 
-Die bestätigte Verbindung bleibt auf dem PC gespeichert. App- oder Spielneustarts benötigen keinen neuen Code, solange die Verbindung gültig und berechtigt ist. Die App muss während der Datenübertragung geöffnet bleiben. Der Code bindet die Verbindung an deine gewählte PlayPuls-Zuordnung; er ersetzt keine LS25-Anmeldung oder PlayPuls-Berechtigung.
 
-## 4. HUD und App bedienen
+## Offline-Modus
 
-- **Strg+P:** HUD ein- oder ausblenden. Beim Start ist es sichtbar.
-- **Mittlere Maustaste:** Mausfunktion öffnen oder beenden, wenn das HUD sichtbar ist.
-- **Kopfzeile ziehen:** HUD verschieben; die Position wird lokal gespeichert.
-- **Aufgaben:** Zeile auswählen oder für Details doppelklicken. Verfügbare Aktionen richten sich nach Aufgabe und Berechtigung.
-- **Aufgaben im HUD:** Ziel, aktuelle Tätigkeit, Beschreibung, Ersteller und Übernahme/Zuweisung ansehen. Neue Aufgaben benötigen Titel, Ziel und Tätigkeit.
-- **Spielhöfe zuordnen:** In den HUD-Einstellungen die Hofliste laden, Spielhof und PlayPuls-Hof durch Anklicken wechseln und die Zuordnung speichern. Dafür sind passende Hofmeister- oder Administratorrechte erforderlich. Die Zuordnung wird mit App und Webseite geteilt und vergibt keine zusätzlichen Nutzerrechte.
-- **Logs:** Manuell einlesen; gelbe Warnungen und rote Fehler suchen, filtern und exportieren.
-- **Einstellungen:** Programmupdates prüfen, Status ansehen und ein verfügbares Update herunterladen.
-- **Stammdaten:** Du kannst Stammdaten weiterhin im Web selbst anlegen und bearbeiten. Im Spiel unter Einstellungen „Stammdaten synchronisieren“ wählen. Nur dieser manuelle Vorgang ergänzt fehlende Felder, Früchte, Grundstücke und eigene Produktionen im erlaubten Aufgabenbereich. Vorhandene Namen und deaktivierte Einträge bleiben erhalten. Bereichsverwalter oder Administrator müssen die Aktion ausführen. Größere Imports werden in begrenzten Paketen übertragen; bei einer Unterbrechung wird der bisherige Fortschritt angezeigt und du kannst den Vorgang erneut manuell starten.
-- **Handel:** Artikel aus den vorhandenen Web-Stammdaten wählen oder manuell eingeben. Menge, Einheit, Preisart, Beschreibung und Frist lassen sich nach aktuellen Rechten bearbeiten.
-- **Fuhrpark:** Mehrere Fahrzeuge und Geräte mit gemeldeten Füllmengen, Kapazitäten und Einheiten ansehen. Nicht verfügbare Werte bleiben als „—“ gekennzeichnet.
-- **Im Hintergrund starten:** „Beim Start minimieren“ in den Einstellungen aktivieren. Das Symbol neben der Uhr öffnet per Klick die App; sein Rechtsklickmenü bietet Öffnen und Beenden.
+Im Mod-HUD unter Einstellungen „Offline-Modus“ einschalten. Aufgaben und Handelsaufträge werden auf diesem PC je Spielstand und Spielhof gespeichert. Der Fuhrpark kommt direkt aus dem Spiel. App und Verbindungscode sind dafür nicht nötig. Es werden keine Daten zur Webseite übertragen.
 
-Sichtbare Arbeitsansichten werden automatisch etwa alle 15 Sekunden abgeglichen. Manuelles Aktualisieren unterliegt einer gemeinsamen Wartezeit von drei Sekunden je Community. Berechtigte lokale Daten können nach Rechteprüfung sofort erscheinen, während der aktuelle Stand im Hintergrund geladen wird.
+Für eine spätere Übertragung die App öffnen, das gewünschte Ziel auswählen und einen neuen Code in der Mod verbinden. Erst nach ausdrücklicher Bestätigung in der App werden offene lokale Planungen als neue offene Einträge übertragen. Passende Ziele und Früchte müssen im Online-Bereich vorhanden sein. Erledigte Arbeitsschritte, Lieferungen und Geld werden nicht nachgebucht. Lokale Planungen werden nicht zwischen Mitspielern verteilt.
+
+
+## Serververwaltung und Sync
+
+Unter Tools → Serververwaltung einen Server mit Name, Adresse, zugeordnetem Modordner und Webinterface-Zugang anlegen. Die Anzeige und verfügbaren Aktionen richten sich nach den tatsächlich bestätigten Webinterface-Rechten. Das Administratorpasswort benötigt Game-Admin-Berechtigung.
+
+HTTP bleibt nutzbar, überträgt Daten jedoch unverschlüsselt. Nutze HTTPS, wenn dein Webinterface es anbietet.
+
+Sync einschalten, um den Serverstand alle drei Minuten abzugleichen. Beim 1:1-Sync hat der Server Vorrang: Auch lokal geänderte Mod-ZIPs werden durch den Serverstand ersetzt; zusätzliche lokale Mod-ZIPs werden entfernt. Andere Dateien und Unterordner bleiben bestehen. Sichere eigene Modänderungen vorher außerhalb dieses Ordners. Während LS25 läuft, wartet der automatische Download.
+
+Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- und Wiedereinschalten von Sync auf 1:1 umgestellt. Manuelle Mod-Downloads bleiben ergänzend.
+
+
+## Bedienung und Hilfe
+
+- Strg+P: HUD ein- oder ausblenden.
+- Mittlere Maustaste: Mausfunktion bei geöffnetem HUD ein- oder ausschalten.
+- HUD-Kopfzeile ziehen: HUD verschieben.
+- „Alle Anzeigen“: größere Übersicht zum gewählten Reiter öffnen.
+- „Version 0.0.0.4“ unter Info & Hilfe: diese Datei öffnen.
+
+Wenn Daten fehlen, zuerst Community, Server, Bereich / Hof und Rechte prüfen. Anschließend den Verbindungsstatus unter Einstellungen → Verbindung & Diagnose ansehen. Bei einem abgelaufenen Code einen neuen anfordern. „Verbindung trennen“ entfernt den lokalen Zugang auch dann, wenn eine Online-Abmeldung nicht bestätigt werden kann.
+
+Im Offline-Modus werden keine Kontodaten aus der Webseite geladen. Eine leere Offline-Liste bedeutet nicht, dass Online-Aufgaben gelöscht wurden. Neue Offline-Planungen bleiben getrennt von den Online-Daten.
+
+Ist das Spiel noch geöffnet, können Modinstallation, Ordnerwechsel und automatische Downloads warten. LS25 vollständig beenden und danach erneut versuchen.
+
+Nach Updates wird diese Datei nicht automatisch geöffnet. Du kannst sie jederzeit über Info & Hilfe → Version 0.0.0.4 aufrufen. Der interaktive Installer bietet „readme.txt öffnen?“ als freiwillige, zunächst nicht aktivierte Auswahl an.
+
+Weitere Anleitung und FAQ: https://play-puls.de/ls-tool
+PlayPuls: https://play-puls.de
+Game News, Guides uvm.: https://dein-gamepuls.de
+
 
 ## Programm aktualisieren
 
-Öffne **Einstellungen → Updates prüfen**. Ab Version 0.0.0.3 bietet ein verfügbares Update **Download** oder **Abbrechen**. Nach dem geprüften Download wählst du **Jetzt neu starten** oder **Später neu starten**. Erst nach deiner Bestätigung wird PlayPuls geschlossen, das Update installiert und die App wieder geöffnet. Bei „Später“ bleibt die App geöffnet; du kannst unter **Einstellungen → Update herunterladen** fortsetzen. Auch automatisch heruntergeladene Updates warten auf diese Bestätigung. Während LS25 läuft, wird nicht installiert.
+Unter Einstellungen auf „Updates prüfen“ klicken. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
 
-Wenn bereits 0.0.0.3 installiert ist, muss das korrigierte Paket einmal manuell installiert werden, weil die Versionsnummer gleich bleibt.
-
-## Wenn etwas fehlt
-
-Prüfe zuerst Community, Server und Aufgabenbereich sowie deinen oben angezeigten LS-Rang. Fehlende Hofrechte oder eine fehlende Zuordnung können Aktionen einschränken. Prüfe danach die Spielverbindung in den Einstellungen und die Hinweise in der Fußzeile.
-
-Bei einem längeren Verbindungsproblem bleiben zulässige letzte Daten lesbar; Schreibaktionen benötigen einen frischen Stand. Eine abgelehnte Berechtigung kann die private Ansicht entfernen.
-
-Der Wechsel von der früheren Version `0.0.1` zur Versionsreihe `0.0.0.2` erfolgt über das vollständige Installationspaket. Der automatische Versionsvergleich betrachtet `0.0.1` als `0.0.1.0` und installiert deshalb `0.0.0.2` nicht als neueres Update.
-
-EXE und Installer besitzen derzeit keine Windows-Herausgebersignatur (Authenticode). Die Prüfung der Updateinformationen und Dateiprüfsummen ersetzt diese Signatur nicht.
-
-Zu Installer, Portable-ZIP, Mod-ZIP und `update.json` wird jeweils eine `.sha256`-Datei bereitgestellt. Der Updater prüft zusätzlich die digital signierten Updateinformationen und den SHA-256-Hash des heruntergeladenen Installers. Eine Prüfsummendatei allein schützt nicht gegen einen Austausch von Datei und Prüfsumme.
-
-[Weitere Informationen und FAQ](https://play-puls.de/ls-tool)
-
-## Monatsreminder und Rechtstexte
-
-Aktiviere die Erinnerung einer Aufgabe und wähle den Erinnerungsmonat. Ohne eigenen Erinnerungsmonat gilt der Aufgabenmonat. Die App verwendet dieselben Monatsnamen wie die Webverwaltung. Wird der passende LS25-Spielmonat erreicht, erscheinen ein kurzer HUD-Hinweis und eine hervorgehobene Aufgabenzeile. Der Aufgabenhinweis bleibt bis zur Erledigung beziehungsweise Änderung oder Deaktivierung der Erinnerung. Kurze Erfolgsmeldungen verschwinden nach drei Sekunden; Fehler bleiben erkennbar.
-
-Installer und Portable-Paket enthalten die Fremdsoftware-Lizenzen im Ordner `licenses`. Die [Nutzungsbedingungen](https://play-puls.de/nutzungsbedingungen) und die [Datenschutzerklärung](https://play-puls.de/datenschutz#ls-tool) beschreiben das PlayPuls-Angebot und die Verarbeitung durch App und Mod.
+Wer bereits ein lokales Testpaket 0.0.0.4 nutzt, installiert den öffentlichen Installer manuell: Dieselbe Versionsnummer löst keinen automatischen Versionshinweis aus. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP; dieselbe Versionsnummer allein genügt bei unterschiedlichen Dateien nicht.
