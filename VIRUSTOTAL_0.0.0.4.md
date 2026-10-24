@@ -53,8 +53,8 @@ Klärung an die jeweiligen Sicherheitsanbieter.
 Das ist eine plausible Erklärung für heuristische Erkennungen, **kein Nachweis,
 dass genau diese fünf Meldungen falsch sind**. Auch Bezeichnungen mit `ml` oder
 `BehavesLike` erlauben keine abschließende Entwarnung. Funktionstests, der
-Abgleich von 30 gebündelten App-Modulen mit dem Quellstand und 861 bestandene
-App-Tests belegen die geprüfte Funktion und Herkunft des Builds; sie ersetzen
+Abgleich der gebündelten App-Module mit dem Quellstand und bestandene
+Funktionstests belegen die geprüfte Funktion und Herkunft des Builds; sie ersetzen
 keine unabhängige Sicherheitsprüfung. Die Binärdateien wurden nicht verändert,
 um Erkennungen zu umgehen. Eine Herstellerprüfung der Funde steht aus.
 

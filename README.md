@@ -85,6 +85,4 @@ nicht die Nutzungslizenz. [Prüfgrund, Befunde, Datenzugriffe und Lizenzhinweis]
 Hilfe bekommst du im [Discord](https://discord.gg/uMnajk3Fnp) oder über das [Kontaktformular](https://dein-gamepuls.de/kontakt-gamepuls/).
 Du kannst auch auf [PlayPuls](https://play-puls.de) **Support** öffnen und ein Ticket erstellen.
 
-[Aktueller Funktionstest von 0.0.0.4](TESTBERICHT_0.0.0.4.md). Die gemeinsame Host-/Mitspieler-Abnahme bleibt offen.
-
-Der [historische Prüfstand von 0.0.0.2](TESTBERICHT.md) dokumentiert ausschließlich die damaligen Prüfungen vom 12.10.2026 und ist kein aktueller Versions- oder Veröffentlichungsstand.
+**Mehrspieler-Hinweis:** Der gemeinsame Betrieb mit Host und weiterem Spieler ist noch nicht abschließend geprüft.
