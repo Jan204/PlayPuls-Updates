@@ -1,14 +1,9 @@
-# PlayPuls 0.0.0.2 – Prüfstand vom 12.10.2026
+# PlayPuls 0.0.0.6 – Dateistand und Prüfung
 
-App und Mod bleiben **Version 0.0.0.2 für Windows 64-Bit (x64)**.
+Appversion 0.0.0.6 für Windows 64-Bit (x64), mitgelieferte Modversion 0.0.0.5. Host und Mitspieler benötigen dieselbe neue Mod-ZIP; die Versionsnummer allein unterscheidet geänderte Pakete nicht.
 
-- Vollständige Backend-Prüfung: **7757 Testfälle bestanden**, keine fehlgeschlagenen Tests. Der im Standardlauf übersprungene lokale Statusserver-Test wurde zusätzlich erfolgreich ausgeführt.
-- Vollständige App-Prüfung: **189 Testfälle bestanden**.
-- Neue Übersicht: Aufgaben offen/gesamt, Handel offen/gesamt/deine offenen Angebote und Fuhrparkanzahl. Kurze Mausover-Erklärungen helfen bei der Zuordnung.
-- Kennzahlen gelten für die aktuelle berechtigte Auswahl. Die Gesamtzahlen sind unabhängig von der auf 50 Einträge begrenzten Liste. Archivierte Einträge werden nicht mitgezählt.
-- Geprüft: Berechtigungs- und Mandantengrenzen, Auswahlwechsel, alte Cache-Summen, Layout und Mausover sowie konstante Datenbankzugriffe. Vorhandene Prüfungen für Anmeldung, Aufgaben, Handel, Höfe, manuelle Stammdaten, Monatsreminder und Updates bestehen ebenfalls.
-- Windows-Installer und Portable-Paket neu gebaut; die LS25-Mod bleibt unverändert. Digital signierte Updateinformationen und alle SHA-256-Dateien wurden geprüft. Der private Signierschlüssel wurde ausschließlich geschützt im Arbeitsspeicher verwendet.
+Die gebündelten Appmodule wurden mit dem Quellstand abgeglichen. Paketinhalt, Prüfsummen und digital signierte Updateinformationen wurden geprüft. Installer und Programmdatei haben keine Windows-Herausgebersignatur; signierte Updateinformationen sind davon getrennt.
 
-Echter LS25-/Multiplayer-Test und Live-Abnahme stehen weiterhin aus. Der Download ist öffentlich freigegeben. Änderungen mit derselben Versionsnummer lösen kein automatisches Versionsupdate aus.
+[VirusTotal-Berichte, Befunde und Datenzugriff](VIRUSTOTAL_0.0.0.6.md) · [Patchnotes](PATCHNOTES_0.0.0.6.md) · [Einrichtung](INSTALLATION.md)
 
-[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Installation](INSTALLATION.md) · [Discord](https://discord.gg/uMnajk3Fnp) · [Kontakt](https://dein-gamepuls.de/kontakt-gamepuls/)
+Ein Scan und Funktionstests sind keine Sicherheitsgarantie. Vom PC übertragene Fahrzeugdaten bleiben unbestätigte Clientmeldungen. Lokale Offline-Planungen werden nicht zwischen Mitspielern verteilt.
