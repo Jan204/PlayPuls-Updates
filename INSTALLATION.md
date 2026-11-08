@@ -1,6 +1,6 @@
-# PlayPuls 0.0.0.6 einrichten
+# PlayPuls 0.0.0.7 einrichten
 
-Windows 64-Bit (x64). [Download](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.6) · [Patchnotes und Hilfe](https://github.com/Jan204/PlayPuls-Updates/releases/download/v0.0.0.6/readme.txt) · [VirusTotal und SmartScreen](VIRUSTOTAL_0.0.0.6.md)
+Windows 64-Bit (x64). [Download](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.7) · [Patchnotes und Hilfe](https://github.com/Jan204/PlayPuls-Updates/releases/download/v0.0.0.7/readme.txt) · [VirusTotal und SmartScreen](VIRUSTOTAL_0.0.0.7.md)
 
 Installer verwenden oder das Portable-ZIP vollständig entpacken und PlayPuls.exe öffnen. Zugehörige Unterordner müssen erhalten bleiben.
 
@@ -48,7 +48,7 @@ Unter Tools → Serververwaltung einen Server mit Name, Adresse, zugeordnetem Mo
 
 HTTP bleibt nutzbar, überträgt Daten jedoch unverschlüsselt. Nutze HTTPS, wenn dein Webinterface es anbietet.
 
-Sync einschalten, um den Serverstand alle drei Minuten abzugleichen. Beim 1:1-Sync hat der Server Vorrang: Auch lokal geänderte Mod-ZIPs werden durch den Serverstand ersetzt; zusätzliche lokale Mod-ZIPs werden entfernt. Andere Dateien und Unterordner bleiben bestehen. Sichere eigene Modänderungen vorher außerhalb dieses Ordners. Während LS25 läuft, wartet der automatische Download.
+Sync einschalten, um den Serverstand alle drei Minuten abzugleichen. Bei unterschiedlichen Versionen zeigt die App Dateiname und beide Versionsnummern. „Server übernehmen“ lädt die Server-Version. „Lokal behalten“ fragt zusätzlich, ob diese Version auch hochgeladen werden soll; ohne Zustimmung bleibt sie nur lokal. Die lokale Auswahl gilt bis sich eine Version ändert. Zusätzliche lokale Mod-ZIPs werden beim 1:1-Sync weiterhin entfernt. Andere Dateien und Unterordner bleiben bestehen. Sichere eigene Modänderungen vorher außerhalb dieses Ordners. Während LS25 läuft, wartet der automatische Download. Fehlgeschlagene Übertragungen erscheinen in einem Fehlerfenster; die Automatik pausiert bis zum Fortsetzen über Sync. Unklare Uploads zuerst im Webinterface prüfen.
 
 Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- und Wiedereinschalten von Sync auf 1:1 umgestellt. Manuelle Mod-Downloads bleiben ergänzend.
 
@@ -59,7 +59,7 @@ Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- 
 - Mittlere Maustaste: Mausfunktion bei geöffnetem HUD ein- oder ausschalten.
 - HUD-Kopfzeile ziehen: HUD verschieben.
 - „Alle Anzeigen“: größere Übersicht zum gewählten Reiter öffnen.
-- „Version 0.0.0.6“ unter Info & Hilfe: diese Datei öffnen.
+- „Version 0.0.0.7“ unter Info & Hilfe: diese Datei öffnen.
 
 Wenn Daten fehlen, zuerst Community, Server, Bereich / Hof und Rechte prüfen. Anschließend den Verbindungsstatus unter Einstellungen → Verbindung & Diagnose ansehen. Bei einem abgelaufenen Code einen neuen anfordern. „Verbindung trennen“ entfernt den lokalen Zugang auch dann, wenn eine Online-Abmeldung nicht bestätigt werden kann.
 
@@ -67,7 +67,7 @@ Im Offline-Modus werden keine Kontodaten aus der Webseite geladen. Eine leere Of
 
 Ist das Spiel noch geöffnet, können Modinstallation, Ordnerwechsel und automatische Downloads warten. LS25 vollständig beenden und danach erneut versuchen.
 
-Nach Updates wird diese Datei nicht automatisch geöffnet. Du kannst sie jederzeit über Info & Hilfe → Version 0.0.0.6 aufrufen. Der interaktive Installer bietet „readme.txt öffnen?“ als freiwillige, zunächst nicht aktivierte Auswahl an.
+Nach Updates wird diese Datei nicht automatisch geöffnet. Du kannst sie jederzeit über Info & Hilfe → Version 0.0.0.7 aufrufen. Der interaktive Installer bietet „readme.txt öffnen?“ als freiwillige, zunächst nicht aktivierte Auswahl an.
 
 Weitere Anleitung und FAQ: https://play-puls.de/ls-tool
 PlayPuls: https://play-puls.de
@@ -78,14 +78,18 @@ Game News, Guides uvm.: https://dein-gamepuls.de
 
 Unter Einstellungen auf „Updates prüfen“ klicken. Bei einem verfügbaren neueren Update mit „Ja“ herunterladen oder mit „Später“ aufschieben. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
 
-Wer bereits ein lokales Testpaket 0.0.0.6 nutzt, installiert den öffentlichen Installer manuell: Dieselbe Versionsnummer löst keinen automatischen Versionshinweis aus. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP; dieselbe Versionsnummer allein genügt bei unterschiedlichen Dateien nicht.
+Wer bereits ein lokales Testpaket 0.0.0.7 nutzt, installiert den öffentlichen Installer manuell: Dieselbe Versionsnummer löst keinen automatischen Versionshinweis aus. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP; dieselbe Versionsnummer allein genügt bei unterschiedlichen Dateien nicht.
 
 ## Automatische Feldübertragung
 
-App auf 0.0.0.6 aktualisieren und das mitgelieferte Modpaket verwenden (Modversion weiterhin 0.0.0.5). Nach der Code-Verbindung werden vollständige, frische Dedicated-Feldproben automatisch zur Website übertragen. Die App übernimmt eine von der Websiteverwaltung eingerichtete Feldquelle und Serverzeitzone automatisch. Zusätzliche Kennungseingabe und Ingame-Admin-Anmeldung sind nicht erforderlich. Im Offline-Modus erfolgt keine Feldübertragung.
+App auf 0.0.0.7 aktualisieren und die mitgelieferte PlayPuls-Mod 0.0.0.6 verwenden. Nach der Code-Verbindung werden vollständige, frische Dedicated-Feldproben automatisch zur Website übertragen. Die App übernimmt eine von der Websiteverwaltung eingerichtete Feldquelle und Serverzeitzone automatisch. Zusätzliche Kennungseingabe und Ingame-Admin-Anmeldung sind nicht erforderlich. Im Offline-Modus erfolgt keine Feldübertragung.
 
-[Bekannte Einschränkungen und Patchnotes](PATCHNOTES_0.0.0.6.md).
+[Bekannte Einschränkungen und Patchnotes](PATCHNOTES_0.0.0.7.md).
 
 ## PlayPuls Mod separat aktualisieren
 
 Ab App 0.0.0.6 wird der signierte PlayPuls-Modkanal beim Start und anschließend alle sechs Stunden geprüft. Einstellungen → Mod & Updates → PlayPuls Mod prüfen beziehungsweise Modupdate herunterladen verwenden. Ein kompatibles Modupdate benötigt kein Toolupdate. Nach dem Download die Mod bei geschlossenem LS25 über die Ordnerverwaltung einfügen oder frei speichern. Host und Mitspieler brauchen dieselbe ZIP. Bei aktivem 1:1-Sync zuerst den Server aktualisieren, da dessen Stand sonst wieder lokal übernommen wird.
+
+## Server-Mods in 0.0.0.7
+
+Der automatische Moddownload vergleicht zuerst Dateiname und Version. Unveränderte Mods werden übersprungen. „Mods Updaten“ installiert bestätigte Server-Modupdates bei gestopptem Server mit Sicherung. Ohne bestätigte Updates ist der Button deaktiviert. „Speichern“ steht in den Einstellungen oben.
