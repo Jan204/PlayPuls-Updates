@@ -1,6 +1,6 @@
-# PlayPuls 0.0.0.7 einrichten
+# PlayPuls 1.0.0 einrichten
 
-Windows 64-Bit (x64). [Download](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.7) · [Patchnotes und Hilfe](https://github.com/Jan204/PlayPuls-Updates/releases/download/v0.0.0.7/readme.txt) · [VirusTotal und SmartScreen](VIRUSTOTAL_0.0.0.7.md)
+Windows 64-Bit (x64). [Anleitung und FAQ](https://play-puls.de/ls-tool)
 
 Installer verwenden oder das Portable-ZIP vollständig entpacken und PlayPuls.exe öffnen. Zugehörige Unterordner müssen erhalten bleiben.
 
@@ -8,7 +8,7 @@ Installer verwenden oder das Portable-ZIP vollständig entpacken und PlayPuls.ex
 
 ### 1. Mit Discord anmelden
 
-Oben in der App auf „Mit Discord anmelden“ klicken. Im Browser mit deinem eigenen Discord-Konto anmelden und die Freigabe für PlayPuls bestätigen. Danach zur App zurückkehren. Oben erscheint dein Name.
+Oben in der App das Kontomenü öffnen und „Mit Discord anmelden“ wählen. Im Browser mit deinem eigenen Discord-Konto anmelden und die Freigabe für PlayPuls bestätigen. Danach zur App zurückkehren. Oben erscheint dein Name.
 
 ### 2. Community, Server und Bereich / Hof wählen
 
@@ -16,7 +16,7 @@ Unter Spielwelt → Server die gewünschte Community, den LS-Server und den Bere
 
 ### 3. Spiel und Modordner vorbereiten
 
-LS25 vollständig schließen. In Einstellungen das LS25-Profil und die Spielanwendung prüfen. Unter Tools → Modordner ein Ordnerprofil mit Name und Pfad anlegen oder auswählen und aktivieren. Die optionale Zuordnung bestimmt, zu welchem Server der Ordner gehört. Ohne Zuordnung bleibt der lokale Spielstart möglich. Über die Ordnereinstellungen „PlayPuls Mod herunterladen und einfügen“ wählen. Host und Mitspieler benötigen dieselbe Mod-ZIP.
+LS25 vollständig schließen. In Einstellungen das LS25-Profil und die Spielanwendung prüfen. Unter Tools → Modordner ein Ordnerprofil mit Name und Pfad anlegen oder auswählen und aktivieren. Die optionale Zuordnung bestimmt, zu welchem Server der Ordner gehört. Ohne Zuordnung bleibt der lokale Spielstart möglich. Beim gewählten Ordner „PlayPuls Mod herunterladen und einfügen“ wählen. Host und Mitspieler benötigen dieselbe Mod-ZIP.
 
 Alternativ unter Einstellungen → Mod & Updates → „PlayPuls Mod speichern unter…“ die Mod an einem beliebigen Ort speichern und selbst in den Modordner kopieren. Vorhandene Moddateien nur bei geschlossenem Spiel ersetzen.
 
@@ -37,7 +37,7 @@ Discord-Anmeldung in der App und Spielverbindung per Code sind zwei getrennte Sc
 
 ## Offline-Modus
 
-Im Mod-HUD unter Einstellungen „Offline-Modus“ einschalten. Aufgaben und Handelsaufträge werden auf diesem PC je Spielstand und Spielhof gespeichert. Der Fuhrpark kommt direkt aus dem Spiel. App und Verbindungscode sind dafür nicht nötig. Es werden keine Daten zur Webseite übertragen.
+Im Mod-HUD unter Einstellungen „Offline-Modus“ einschalten. Aufgaben und Handelsaufträge werden auf diesem PC je Spielstand und Spielhof gespeichert. Der Fuhrpark kommt direkt aus dem Spiel. App und Verbindungscode sind dafür nicht nötig. Spielstanddaten und lokale Planungen bleiben dabei auf diesem PC. Wenn die App läuft, kann der geöffnete ModHub-Reiter die öffentliche Liste auch ohne Discord-Anmeldung laden.
 
 Für eine spätere Übertragung die App öffnen, das gewünschte Ziel auswählen und einen neuen Code in der Mod verbinden. Erst nach ausdrücklicher Bestätigung in der App werden offene lokale Planungen als neue offene Einträge übertragen. Passende Ziele und Früchte müssen im Online-Bereich vorhanden sein. Erledigte Arbeitsschritte, Lieferungen und Geld werden nicht nachgebucht. Lokale Planungen werden nicht zwischen Mitspielern verteilt.
 
@@ -48,7 +48,7 @@ Unter Tools → Serververwaltung einen Server mit Name, Adresse, zugeordnetem Mo
 
 HTTP bleibt nutzbar, überträgt Daten jedoch unverschlüsselt. Nutze HTTPS, wenn dein Webinterface es anbietet.
 
-Sync einschalten, um den Serverstand alle drei Minuten abzugleichen. Bei unterschiedlichen Versionen zeigt die App Dateiname und beide Versionsnummern. „Server übernehmen“ lädt die Server-Version. „Lokal behalten“ fragt zusätzlich, ob diese Version auch hochgeladen werden soll; ohne Zustimmung bleibt sie nur lokal. Die lokale Auswahl gilt bis sich eine Version ändert. Zusätzliche lokale Mod-ZIPs werden beim 1:1-Sync weiterhin entfernt. Andere Dateien und Unterordner bleiben bestehen. Sichere eigene Modänderungen vorher außerhalb dieses Ordners. Während LS25 läuft, wartet der automatische Download. Fehlgeschlagene Übertragungen erscheinen in einem Fehlerfenster; die Automatik pausiert bis zum Fortsetzen über Sync. Unklare Uploads zuerst im Webinterface prüfen.
+Über das Sync-Symbol den Abgleich einschalten oder fortsetzen. Bei laufendem LS25 wartet die Prüfung. Bei geschlossenem Spiel erscheint eine Vorschau, wenn Downloads, Versionskonflikte oder lokale Entfernungen anstehen. Ohne Änderungen wird Sync direkt aktiv. Nach einer Bestätigung prüft die App den Bestand erneut und führt den ersten Abgleich aus. Danach prüft die Automatik alle drei Minuten. Bei unterschiedlichen Versionen zeigt die App Dateiname und beide Versionsnummern. „Server übernehmen“ lädt die Server-Version. „Lokal behalten“ fragt zusätzlich, ob diese Version auch hochgeladen werden soll; ohne Zustimmung bleibt sie nur lokal. Die lokale Auswahl gilt bis sich eine Version ändert. Zusätzliche lokale Mod-ZIPs werden beim 1:1-Sync weiterhin entfernt. Andere Dateien und Unterordner bleiben bestehen. Sichere eigene Modänderungen vorher außerhalb dieses Ordners. Während LS25 läuft, wartet der automatische Download. Fehlgeschlagene Übertragungen erscheinen in einem Fehlerfenster; die Automatik pausiert bis zum Fortsetzen über Sync. Unklare Uploads zuerst im Webinterface prüfen.
 
 Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- und Wiedereinschalten von Sync auf 1:1 umgestellt. Manuelle Mod-Downloads bleiben ergänzend.
 
@@ -59,7 +59,7 @@ Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- 
 - Mittlere Maustaste: Mausfunktion bei geöffnetem HUD ein- oder ausschalten.
 - HUD-Kopfzeile ziehen: HUD verschieben.
 - „Alle Anzeigen“: größere Übersicht zum gewählten Reiter öffnen.
-- „Version 0.0.0.7“ unter Info & Hilfe: diese Datei öffnen.
+- „Version“ unter Info & Hilfe öffnet die Versionsübersicht im Browser.
 
 Wenn Daten fehlen, zuerst Community, Server, Bereich / Hof und Rechte prüfen. Anschließend den Verbindungsstatus unter Einstellungen → Verbindung & Diagnose ansehen. Bei einem abgelaufenen Code einen neuen anfordern. „Verbindung trennen“ entfernt den lokalen Zugang auch dann, wenn eine Online-Abmeldung nicht bestätigt werden kann.
 
@@ -67,7 +67,7 @@ Im Offline-Modus werden keine Kontodaten aus der Webseite geladen. Eine leere Of
 
 Ist das Spiel noch geöffnet, können Modinstallation, Ordnerwechsel und automatische Downloads warten. LS25 vollständig beenden und danach erneut versuchen.
 
-Nach Updates wird diese Datei nicht automatisch geöffnet. Du kannst sie jederzeit über Info & Hilfe → Version 0.0.0.7 aufrufen. Der interaktive Installer bietet „readme.txt öffnen?“ als freiwillige, zunächst nicht aktivierte Auswahl an.
+Nach Updates wird die Versionsübersicht nicht automatisch geöffnet. Du findest sie unter Info & Hilfe → Version. Am Ende der interaktiven Installation kannst du die HTML-Versionsübersicht öffnen.
 
 Weitere Anleitung und FAQ: https://play-puls.de/ls-tool
 PlayPuls: https://play-puls.de
@@ -82,7 +82,7 @@ Wer bereits ein lokales Testpaket 0.0.0.7 nutzt, installiert den öffentlichen I
 
 ## Automatische Feldübertragung
 
-App auf 0.0.0.7 aktualisieren und die mitgelieferte PlayPuls-Mod 0.0.0.6 verwenden. Nach der Code-Verbindung werden vollständige, frische Dedicated-Feldproben automatisch zur Website übertragen. Die App übernimmt eine von der Websiteverwaltung eingerichtete Feldquelle und Serverzeitzone automatisch. Zusätzliche Kennungseingabe und Ingame-Admin-Anmeldung sind nicht erforderlich. Im Offline-Modus erfolgt keine Feldübertragung.
+App auf 1.0.0 aktualisieren und die mitgelieferte Mod 0.0.0.7 verwenden. Nach der Code-Verbindung werden vollständige, frische Dedicated-Feldproben automatisch zur Website übertragen. Die App übernimmt eine von der Websiteverwaltung eingerichtete Feldquelle und Serverzeitzone automatisch. Zusätzliche Kennungseingabe und Ingame-Admin-Anmeldung sind nicht erforderlich. Im Offline-Modus erfolgt keine Feldübertragung.
 
 [Bekannte Einschränkungen und Patchnotes](PATCHNOTES_0.0.0.7.md).
 

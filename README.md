@@ -2,9 +2,12 @@
 
 Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayPuls-Mod für Landwirtschafts-Simulator 25 mit deiner PlayPuls-Community. Eine 32-Bit-Ausgabe wird nicht angeboten.
 
-**Veröffentlicht: Version 0.0.0.7.** Installer, Portable-Paket, passende LS25-Mod und readme.txt findest du im [öffentlichen Release](https://github.com/Jan204/PlayPuls-Updates/releases/tag/v0.0.0.7).
+**Aktuelle Version: 1.0.0.** Das Setup und das
+Portable-Paket enthalten die PlayPuls-Mod 0.0.0.7 und die vollständige
+Versionshistorie als `readme.html` und `readme.txt`. Die HTML-Übersicht
+ist am Ende der Installation und unter **Info & Hilfe → Version** erreichbar.
 
-[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung](https://github.com/Jan204/PlayPuls-Updates/blob/main/INSTALLATION.md) · [Patchnotes und Hilfe als Textdatei](https://github.com/Jan204/PlayPuls-Updates/releases/download/v0.0.0.7/readme.txt)
+[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Öffentlich verfügbare Version](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung für 1.0.0](INSTALLATION.md)
 
 ## So funktioniert die Verbindung
 
@@ -12,9 +15,27 @@ Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayP
 
 Für Online-Funktionen arbeiten App und Mod zusammen. Die Mod kann Aufgaben, Handel und den lokalen Fuhrpark auch offline ohne App und ohne Code verwenden. Offline-Planungen bleiben lokal, bis du sie nach einer späteren Verbindung ausdrücklich zur Übertragung bestätigst.
 
-## Neu in 0.0.0.7
+## Neu in 1.0.0
 
-Die Serverübersicht zeigt Spielerbelegung, Modanzahl und bestätigte Updates. Die App kann Feldwerte und Umrisse aus frischen Feldproben übertragen, wenn der Kartenempfang für den Server freigegeben ist. [Patchnotes](PATCHNOTES_0.0.0.7.md).
+Die Windows-App erhält eine neue Navigation und eine Serverübersicht,
+die den letzten gespeicherten Stand sofort anzeigen kann. Das Farbschema
+folgt standardmäßig Windows. Hell und Dunkel lassen sich fest wählen.
+Der Hofbestand zeigt Felder, Grundstücke, Tiere, Produktionen und sonstige
+Anlagen auch ohne laufendes Spiel. Ein Rechtsklick öffnet die verfügbaren
+Erstellaktionen. Der ModHub lädt im lokalen Spielmodus bei geöffneter App
+die öffentliche Liste. Der 1:1-Modabgleich zeigt anstehende Änderungen vor
+dem ersten Abgleich zur Bestätigung an. [Patchnotes 1.0.0](PATCHNOTES_1.0.0.md)
+
+## Versionshistorie
+
+- [1.0.0](PATCHNOTES_1.0.0.md)
+- [0.0.0.8 · Teststand](PATCHNOTES_0.0.0.8.md)
+- [0.0.0.7](PATCHNOTES_0.0.0.7.md)
+- [0.0.0.6](PATCHNOTES_0.0.0.6.md)
+- [0.0.0.5](PATCHNOTES_0.0.0.5.md)
+- [0.0.0.4](PATCHNOTES_0.0.0.4.md)
+- [0.0.0.3](PATCHNOTES_0.0.0.3.md)
+- [0.0.0.2](PATCHNOTES_0.0.0.2.md)
 
 ## Was bietet das Tool?
 
@@ -33,11 +54,11 @@ Welche Daten und Aktionen verfügbar sind, hängt von deiner Discord-Community, 
 
 ## Download und Installation
 
-Für Windows mit 64 Bit. Im veröffentlichten Release 0.0.0.7 stehen der `.exe`-Installer, das Portable-`.zip` sowie die passende LS25-Mod bereit. Jede Download-Datei und `update.json` erhalten eine eigene `.sha256`-Prüfsummendatei. Für das Portable-Paket den gesamten Inhalt entpacken und anschließend `PlayPuls.exe` öffnen.
+Der Installer und das Portable-Paket für 1.0.0 setzen Windows mit 64 Bit voraus. Für das Portable-Paket den gesamten Inhalt entpacken und anschließend `PlayPuls.exe` öffnen. Die öffentlich verfügbaren Pakete stehen bei den [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest).
 
 [Zur Installation und Einrichtung der veröffentlichten Version](https://github.com/Jan204/PlayPuls-Updates/blob/main/INSTALLATION.md)
 
-**1:1-Sync.** Bei unterschiedlichen Versionen fragt PlayPuls nach. Der Upload der lokalen Version braucht eine separate Bestätigung. Zusätzliche lokale Mod-ZIPs werden beim Abgleich gelöscht. Sichere eigene Modänderungen vorher außerhalb des Modordners. Während LS25 läuft, pausiert der automatische Download.
+**1:1-Sync:** Bei unterschiedlichen Versionen zwischen Lokal und Server fragt die App nach. „Lokal behalten“ fragt zusätzlich, ob die Mod auch auf den Server hochgeladen werden soll; ohne Zustimmung bleibt die Server-Version bestehen. Die lokale Auswahl wird für dieses Versionspaar gemerkt. Zusätzliche lokale Mod-ZIPs werden weiterhin gelöscht. Andere Dateien und Unterordner bleiben bestehen. Eigene Modänderungen vorher außerhalb des Modordners sichern. Während LS25 läuft, wartet der automatische Download; manuelle Mod-Downloads bleiben ergänzend. Bei Übertragungsfehlern erscheint ein Fehlerfenster; die Automatik pausiert bis zum Fortsetzen über Sync.
 
 ## Häufige Fragen
 
@@ -59,13 +80,13 @@ Die Logansicht liest Dateien nur auf deine Aktion hin lokal ein. Die Originaldat
 
 ### Wie funktionieren PlayPuls-Modupdates?
 
-Ab App 0.0.0.6 wird der getrennte, signierte Modkanal beim Start und anschließend alle sechs Stunden geprüft. In Einstellungen → Mod & Updates lassen sich Modupdates auch manuell prüfen und herunterladen. Ein kompatibles Modupdate benötigt kein Toolupdate. Das Einfügen in einen Modordner muss bestätigt werden; LS25 muss geschlossen sein. Host und Mitspieler brauchen dieselbe ZIP. Bei aktiviertem 1:1-Sync bleibt der Serverstand maßgeblich.
+Ab App 0.0.0.6 wird der getrennte, signierte Modkanal beim Start und anschließend alle sechs Stunden geprüft. In Einstellungen → Mod & Updates lassen sich Modupdates auch manuell prüfen und herunterladen. Ein kompatibles Modupdate benötigt kein Toolupdate. Das Einfügen in einen Modordner muss bestätigt werden; LS25 muss geschlossen sein. Host und Mitspieler brauchen dieselbe ZIP. Bei unterschiedlichen lokalen und Server-Versionen fragt der automatische Modabgleich nach deiner Auswahl.
 
 ### Wie funktionieren Toolupdates?
 
 Öffne **Einstellungen → Updates prüfen**. Ein verfügbares Update wird im Programm heruntergeladen und vor der Installation geprüft. Dafür muss ein veröffentlichtes Paket mit digital signierten Updateinformationen vorliegen. Der Updater prüft die Signatur sowie Dateigröße und SHA-256 des Installers. Prüfsummen allein ersetzen keine Signatur. Änderungen mit derselben Versionsnummer lösen kein Versionsupdate aus. Während LS25 läuft, wird kein Toolupdate installiert.
 
-Nach dem geprüften Download wählst du „Jetzt neu starten“ oder „Später neu starten“. Auch automatisch heruntergeladene Updates warten auf diese Bestätigung. Wer bereits das lokale Testpaket 0.0.0.7 nutzt, installiert den öffentlichen Installer manuell, da dieselbe Versionsnummer keinen Updatehinweis auslöst.
+Nach dem geprüften Download wählst du „Jetzt neu starten“ oder „Später neu starten“. Auch automatisch heruntergeladene Updates warten auf diese Bestätigung. Wer den gleichnamigen 1.0.0-Teststand nutzt, installiert das freigegebene Setup manuell.
 
 ### Kann ich ohne Verbindung alle gespeicherten Daten verwenden?
 
@@ -78,15 +99,32 @@ Private Online-Daten aus dem App-Cache erfordern weiterhin eine aktuelle Rechtep
 
 ## Hilfe
 
-### VirusTotal zu 0.0.0.7
+### VirusTotal zu PlayPuls 1.0.0
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.7 – Installer](https://www.virustotal.com/gui/file/193354c86e9e5958535181f5ded9bae611d81327a87e5842485935fb30c838e7) – 1 von 70 Engines meldet einen Verdacht.
+Beim Installer meldet 1 von 67 Engines mit Ergebnis einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Installer](https://www.virustotal.com/gui/file/194369e40a09e4c8862382349f607db6b882121a358b5191c6d513d90cd4b1af)
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.7 – Programmdatei](https://www.virustotal.com/gui/file/4ca5d047554f73b3e7ef0785d84a7f1f8f2e74a6f112310b5824eea1eff8a7e2) – 3 von 71 Engines melden einen Verdacht.
+Bei der Programmdatei melden 3 von 68 Engines mit Ergebnis einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Programmdatei](https://www.virustotal.com/gui/file/301f3726d092c43b70e5f800f22b2a307ab89a416fc60c21cdd1357bb29f8825)
 
-[Prüfsummen und Scanner-Details](VIRUSTOTAL_0.0.0.7.md)
+Die Einstufung als Fehlalarm bleibt offen.
+[Fundnamen, Prüfsummen und Prüfungen ohne Ergebnis](VIRUSTOTAL_1.0.0.md#releasekandidat-mit-html-versionsübersicht)
 
-### VirusTotal und Windows-Hinweis zu 0.0.0.6
+### Frühere VirusTotal-Berichte zum Windows-Standard-Testbuild 1.0.0
+
+1 von 65 Engines mit Ergebnis meldet einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Installer](https://www.virustotal.com/gui/file/798673b42dc4188a8570bc975813377cddc6aaea0fb5d7b8156dba5c09fce6c2)
+
+3 von 68 Engines mit Ergebnis melden einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Programmdatei](https://www.virustotal.com/gui/file/c62b8cc8d7e8b9d2e49e38a436bb500005ae30c0a576345d44a6fa81814b80a8)
+
+Die Befunde sind offen. [Fundnamen, Prüfsummen und Prüfungen ohne Ergebnis](VIRUSTOTAL_1.0.0.md)
+
+### Prüfstatus zu 0.0.0.7
+
+[Dokumentierter Prüfstatus](VIRUSTOTAL_0.0.0.7.md).
+
+### Frühere VirusTotal-Berichte zu 0.0.0.6
 
 [VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Installer](https://www.virustotal.com/gui/file/57c2040962a06650008cb8e21a28f18ad6b45d4d364db37a2b5d1c0ec5409663) – 1 von 70 Engines meldet einen Verdacht.
 
