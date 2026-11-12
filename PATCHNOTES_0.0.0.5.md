@@ -2,12 +2,6 @@
 
 [Anleitung, Bilder und FAQ](https://play-puls.de/ls-tool) · [PlayPuls](https://play-puls.de) · [GamePuls](https://dein-gamepuls.de)
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.5 – Installer](https://www.virustotal.com/gui/file/712108c13a3b1b7f73b5e081abf5bf74a387a51118aa871a2c66ea195b4331e3) – 1 von 69 Engines meldet einen Verdacht.
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.5 – Programmdatei](https://www.virustotal.com/gui/file/8ba7234d3c2fe5817fc168e316d5ac0e998cc8bf89aaad9e494a29bf35519590) – 4 von 71 Engines melden einen Verdacht.
-
-Die Funde sind nicht als Fehlalarme bestätigt. [Befunde, Datenzugriffe und Lizenzhinweis](https://github.com/Jan204/PlayPuls-Updates/blob/main/VIRUSTOTAL_0.0.0.5.md).
-
 ## Automatische Feldübertragung
 
 - Vollständige Feldzustände vom Dedicated-Server werden über die verbundene App automatisch zur Websitekarte übertragen.

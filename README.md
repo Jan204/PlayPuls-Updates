@@ -110,30 +110,6 @@ Bei der Programmdatei melden 3 von 68 Engines mit Ergebnis einen Verdacht.
 Die Einstufung als Fehlalarm bleibt offen.
 [Fundnamen, Prüfsummen und Prüfungen ohne Ergebnis](VIRUSTOTAL_1.0.0.md#releasekandidat-mit-html-versionsübersicht)
 
-### Frühere VirusTotal-Berichte zum Windows-Standard-Testbuild 1.0.0
-
-1 von 65 Engines mit Ergebnis meldet einen Verdacht.
-[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Installer](https://www.virustotal.com/gui/file/798673b42dc4188a8570bc975813377cddc6aaea0fb5d7b8156dba5c09fce6c2)
-
-3 von 68 Engines mit Ergebnis melden einen Verdacht.
-[VirusTotal-Prüfbericht für PlayPuls 1.0.0 – Programmdatei](https://www.virustotal.com/gui/file/c62b8cc8d7e8b9d2e49e38a436bb500005ae30c0a576345d44a6fa81814b80a8)
-
-Die Befunde sind offen. [Fundnamen, Prüfsummen und Prüfungen ohne Ergebnis](VIRUSTOTAL_1.0.0.md)
-
-### Prüfstatus zu 0.0.0.7
-
-[Dokumentierter Prüfstatus](VIRUSTOTAL_0.0.0.7.md).
-
-### Frühere VirusTotal-Berichte zu 0.0.0.6
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Installer](https://www.virustotal.com/gui/file/57c2040962a06650008cb8e21a28f18ad6b45d4d364db37a2b5d1c0ec5409663) – 1 von 70 Engines meldet einen Verdacht.
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Programmdatei](https://www.virustotal.com/gui/file/5d5da299f6836f08d858cd611f33b3a3e5247fb88c6ac95d0028b9657bdf94d6) – 4 von 71 Engines melden einen Verdacht.
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Portable-Paket](https://www.virustotal.com/gui/file/6ca66a4305d06e6d22da467385da9c47edf640e4bacf83a108f42e4cbf4964cf) – Keine Erkennung bei 67 Engines.
-
-Die Verdachtsmeldungen sind nicht als Fehlalarme bestätigt. [Befunde, Datenzugriffe und Lizenzhinweis](https://github.com/Jan204/PlayPuls-Updates/blob/main/VIRUSTOTAL_0.0.0.6.md).
-
 Installer und Programmdatei haben keine Windows-Herausgebersignatur. SmartScreen bewertet Signatur und Reputation; eine Nutzungslizenz ersetzt diese Prüfung nicht.
 
 Hilfe bekommst du im [Discord](https://discord.gg/uMnajk3Fnp) oder über das [Kontaktformular](https://dein-gamepuls.de/kontakt-gamepuls/).

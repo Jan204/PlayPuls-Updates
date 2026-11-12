@@ -2,14 +2,6 @@
 
 [Anleitung, Bilder und FAQ](https://play-puls.de/ls-tool) · [PlayPuls](https://play-puls.de) · [GamePuls](https://dein-gamepuls.de)
 
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Installer](https://www.virustotal.com/gui/file/57c2040962a06650008cb8e21a28f18ad6b45d4d364db37a2b5d1c0ec5409663) – 1 von 70 Engines meldet einen Verdacht.
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Programmdatei](https://www.virustotal.com/gui/file/5d5da299f6836f08d858cd611f33b3a3e5247fb88c6ac95d0028b9657bdf94d6) – 4 von 71 Engines melden einen Verdacht.
-
-[VirusTotal-Prüfbericht für PlayPuls 0.0.0.6 – Portable-Paket](https://www.virustotal.com/gui/file/6ca66a4305d06e6d22da467385da9c47edf640e4bacf83a108f42e4cbf4964cf) – Keine Erkennung bei 67 Engines.
-
-Die Verdachtsmeldungen sind nicht als Fehlalarme bestätigt. [Befunde, Datenzugriffe und Lizenzhinweis](https://github.com/Jan204/PlayPuls-Updates/blob/main/VIRUSTOTAL_0.0.0.6.md).
-
 - PlayPuls-Modupdates unabhängig vom Tool prüfen und herunterladen.
 - Server in der Serververwaltung per Ziehen sortieren. Die Reihenfolge bleibt gespeichert.
 - Bei älteren Mods zeigt der Mausover Modname und installierte Version.
