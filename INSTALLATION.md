@@ -1,4 +1,4 @@
-# PlayPuls 1.0.0 einrichten
+# PlayPuls 1.0.0.1 einrichten
 
 Windows 64-Bit (x64). [Anleitung und FAQ](https://play-puls.de/ls-tool)
 
@@ -17,6 +17,8 @@ Unter Spielwelt → Server die gewünschte Community, den LS-Server und den Bere
 ### 3. Spiel und Modordner vorbereiten
 
 LS25 vollständig schließen. In Einstellungen das LS25-Profil und die Spielanwendung prüfen. Unter Tools → Modordner ein Ordnerprofil mit Name und Pfad anlegen oder auswählen und aktivieren. Die optionale Zuordnung bestimmt, zu welchem Server der Ordner gehört. Ohne Zuordnung bleibt der lokale Spielstart möglich. Beim gewählten Ordner „PlayPuls Mod herunterladen und einfügen“ wählen. Host und Mitspieler benötigen dieselbe Mod-ZIP.
+
+Ein grüner Haken neben „PlayPuls-Mod“ zeigt den neuesten geprüften Modstand im gewählten Ordner. Ein gelbes Ausrufezeichen weist auf ein verfügbares Update hin.
 
 Alternativ unter Einstellungen → Mod & Updates → „PlayPuls Mod speichern unter…“ die Mod an einem beliebigen Ort speichern und selbst in den Modordner kopieren. Vorhandene Moddateien nur bei geschlossenem Spiel ersetzen.
 
@@ -59,7 +61,7 @@ Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- 
 - Mittlere Maustaste: Mausfunktion bei geöffnetem HUD ein- oder ausschalten.
 - HUD-Kopfzeile ziehen: HUD verschieben.
 - „Alle Anzeigen“: größere Übersicht zum gewählten Reiter öffnen.
-- „Version“ unter Info & Hilfe öffnet die Versionsübersicht im Browser.
+- „Version 1.0.0.1“ unter Info & Hilfe: die Versionsübersicht öffnen.
 
 Wenn Daten fehlen, zuerst Community, Server, Bereich / Hof und Rechte prüfen. Anschließend den Verbindungsstatus unter Einstellungen → Verbindung & Diagnose ansehen. Bei einem abgelaufenen Code einen neuen anfordern. „Verbindung trennen“ entfernt den lokalen Zugang auch dann, wenn eine Online-Abmeldung nicht bestätigt werden kann.
 
@@ -67,7 +69,9 @@ Im Offline-Modus werden keine Kontodaten aus der Webseite geladen. Eine leere Of
 
 Ist das Spiel noch geöffnet, können Modinstallation, Ordnerwechsel und automatische Downloads warten. LS25 vollständig beenden und danach erneut versuchen.
 
-Nach Updates wird die Versionsübersicht nicht automatisch geöffnet. Du findest sie unter Info & Hilfe → Version. Am Ende der interaktiven Installation kannst du die HTML-Versionsübersicht öffnen.
+Der interaktive Installer bietet „Versionsübersicht öffnen?“ als freiwillige Auswahl an. Du findest die Übersichten auch unter Info & Hilfe → Version 1.0.0.1.
+
+Unter Einstellungen → Darstellung kannst du eine vorgegebene oder eigene Akzentfarbe wählen und ein JPG-, PNG- oder WebP-Bild als Hintergrund verwenden. Die App zeigt die Vorschau sofort an. Mit „Speichern“ übernimmst du die Auswahl.
 
 Weitere Anleitung und FAQ: https://play-puls.de/ls-tool
 PlayPuls: https://play-puls.de
@@ -78,18 +82,20 @@ Game News, Guides uvm.: https://dein-gamepuls.de
 
 Unter Einstellungen auf „Updates prüfen“ klicken. Bei einem verfügbaren neueren Update mit „Ja“ herunterladen oder mit „Später“ aufschieben. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
 
-Wer bereits ein lokales Testpaket 0.0.0.7 nutzt, installiert den öffentlichen Installer manuell: Dieselbe Versionsnummer löst keinen automatischen Versionshinweis aus. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP; dieselbe Versionsnummer allein genügt bei unterschiedlichen Dateien nicht.
+Wer bereits ein lokales Testpaket 1.0.0.1 nutzt, installiert das freigegebene Setup manuell. Die automatische Updateprüfung bietet höhere Versionsnummern an. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP.
 
 ## Automatische Feldübertragung
 
-App auf 1.0.0 aktualisieren und die mitgelieferte Mod 0.0.0.7 verwenden. Nach der Code-Verbindung werden vollständige, frische Dedicated-Feldproben automatisch zur Website übertragen. Die App übernimmt eine von der Websiteverwaltung eingerichtete Feldquelle und Serverzeitzone automatisch. Zusätzliche Kennungseingabe und Ingame-Admin-Anmeldung sind nicht erforderlich. Im Offline-Modus erfolgt keine Feldübertragung.
+Verwende PlayPuls 1.0.0.1 mit Mod 0.0.0.8. Nach der Spielverbindung zeigt die App bei einem neu erkannten selbst gehosteten Spielstand eine Freigabeabfrage für die Übertragung. „Nein“ pausiert die Spielstanddaten. Du kannst die Freigabe später unter Einstellungen → Mod & Updates → Spielstand-Sync erteilen.
 
-[Bekannte Einschränkungen und Patchnotes](PATCHNOTES_0.0.0.7.md).
+Bei einer eingerichteten Dedicated-Feldquelle übernimmt die App die bestätigte Serverzeitzone und überträgt vollständige, frische Feldproben. Die Website zeigt Kartenbild und Feldumrisse an, wenn die passende Quelle diese Daten liefert.
+
+[Patchnotes 1.0.0.1](https://github.com/Jan204/PlayPuls-Updates/blob/main/PATCHNOTES_1.0.0.1.md).
 
 ## PlayPuls Mod separat aktualisieren
 
 Ab App 0.0.0.6 wird der signierte PlayPuls-Modkanal beim Start und anschließend alle sechs Stunden geprüft. Einstellungen → Mod & Updates → PlayPuls Mod prüfen beziehungsweise Modupdate herunterladen verwenden. Ein kompatibles Modupdate benötigt kein Toolupdate. Nach dem Download die Mod bei geschlossenem LS25 über die Ordnerverwaltung einfügen oder frei speichern. Host und Mitspieler brauchen dieselbe ZIP. Bei aktivem 1:1-Sync zuerst den Server aktualisieren, da dessen Stand sonst wieder lokal übernommen wird.
 
-## Server-Mods in 0.0.0.7
+## Server-Mods
 
-Der automatische Moddownload vergleicht zuerst Dateiname und Version. Unveränderte Mods werden übersprungen. „Mods Updaten“ installiert bestätigte Server-Modupdates bei gestopptem Server mit Sicherung. Ohne bestätigte Updates ist der Button deaktiviert. „Speichern“ steht in den Einstellungen oben.
+Der automatische Moddownload vergleicht zuerst Dateiname und Version. „Mods Updaten“ installiert bestätigte Server-Modupdates bei gestopptem Server. Beim Ersetzen einer Mod zeigt das Tool den Fortschritt des neuen Uploads. Ein abgebrochener Austausch lässt sich über den Serverbestand im Webinterface prüfen.
