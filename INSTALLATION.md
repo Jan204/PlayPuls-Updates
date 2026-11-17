@@ -1,4 +1,4 @@
-# PlayPuls 1.0.0.1 einrichten
+# PlayPuls 1.0.0.2 einrichten
 
 Windows 64-Bit (x64). [Anleitung und FAQ](https://play-puls.de/ls-tool)
 
@@ -61,7 +61,7 @@ Ein früher eingerichteter ergänzender Abgleich wird erst durch bewusstes Aus- 
 - Mittlere Maustaste: Mausfunktion bei geöffnetem HUD ein- oder ausschalten.
 - HUD-Kopfzeile ziehen: HUD verschieben.
 - „Alle Anzeigen“: größere Übersicht zum gewählten Reiter öffnen.
-- „Version 1.0.0.1“ unter Info & Hilfe: die Versionsübersicht öffnen.
+- „Version 1.0.0.2“ unter Info & Hilfe: die Versionsübersicht öffnen.
 
 Wenn Daten fehlen, zuerst Community, Server, Bereich / Hof und Rechte prüfen. Anschließend den Verbindungsstatus unter Einstellungen → Verbindung & Diagnose ansehen. Bei einem abgelaufenen Code einen neuen anfordern. „Verbindung trennen“ entfernt den lokalen Zugang auch dann, wenn eine Online-Abmeldung nicht bestätigt werden kann.
 
@@ -69,7 +69,7 @@ Im Offline-Modus werden keine Kontodaten aus der Webseite geladen. Eine leere Of
 
 Ist das Spiel noch geöffnet, können Modinstallation, Ordnerwechsel und automatische Downloads warten. LS25 vollständig beenden und danach erneut versuchen.
 
-Der interaktive Installer bietet „Versionsübersicht öffnen?“ als freiwillige Auswahl an. Du findest die Übersichten auch unter Info & Hilfe → Version 1.0.0.1.
+Der interaktive Installer bietet „Versionsübersicht öffnen?“ als freiwillige Auswahl an. Du findest die Übersichten auch unter Info & Hilfe → Version 1.0.0.2.
 
 Unter Einstellungen → Darstellung kannst du eine vorgegebene oder eigene Akzentfarbe wählen und ein JPG-, PNG- oder WebP-Bild als Hintergrund verwenden. Die App zeigt die Vorschau sofort an. Mit „Speichern“ übernimmst du die Auswahl.
 
@@ -80,17 +80,17 @@ Game News, Guides uvm.: https://dein-gamepuls.de
 
 ## Programm aktualisieren
 
-Unter Einstellungen auf „Updates prüfen“ klicken. Bei einem verfügbaren neueren Update mit „Ja“ herunterladen oder mit „Später“ aufschieben. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Ein automatisch heruntergeladenes Update wartet ebenfalls auf die Neustartbestätigung. Während LS25 läuft, wird nicht installiert.
+PlayPuls prüft beim Start und während des Betriebs auf Toolupdates. Mit „Updates prüfen“ lässt sich die Prüfung jederzeit anstoßen. Bei einem neuen Angebot „Herunterladen“ wählen, um den Download zu starten, oder mit „Später“ verschieben. Der Button „Update herunterladen“ in den Einstellungen öffnet die Abfrage erneut. Nach dem geprüften Download „Jetzt neu starten“ oder „Später neu starten“ wählen. Während LS25 läuft, ist die Installation gesperrt.
 
-Wer bereits ein lokales Testpaket 1.0.0.1 nutzt, installiert das freigegebene Setup manuell. Die automatische Updateprüfung bietet höhere Versionsnummern an. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP.
+Wer bereits ein lokales Testpaket 1.0.0.2 nutzt, installiert das freigegebene Setup manuell. Die automatische Updateprüfung bietet höhere Versionsnummern an. Beim Portable-Paket einen frisch entpackten Ordner verwenden. Host und Mitspieler benötigen dieselbe Mod-ZIP.
 
 ## Automatische Feldübertragung
 
-Verwende PlayPuls 1.0.0.1 mit Mod 0.0.0.8. Nach der Spielverbindung zeigt die App bei einem neu erkannten selbst gehosteten Spielstand eine Freigabeabfrage für die Übertragung. „Nein“ pausiert die Spielstanddaten. Du kannst die Freigabe später unter Einstellungen → Mod & Updates → Spielstand-Sync erteilen.
+Verwende PlayPuls 1.0.0.2 mit Mod 0.0.0.8. Nach der Spielverbindung zeigt die App bei einem neu erkannten selbst gehosteten Spielstand eine Freigabeabfrage für die Übertragung. „Nein“ pausiert die Spielstanddaten. Du kannst die Freigabe später unter Einstellungen → Mod & Updates → Spielstand-Sync erteilen.
 
 Bei einer eingerichteten Dedicated-Feldquelle übernimmt die App die bestätigte Serverzeitzone und überträgt vollständige, frische Feldproben. Die Website zeigt Kartenbild und Feldumrisse an, wenn die passende Quelle diese Daten liefert.
 
-[Patchnotes 1.0.0.1](https://github.com/Jan204/PlayPuls-Updates/blob/main/PATCHNOTES_1.0.0.1.md).
+[Patchnotes 1.0.0.2](https://github.com/Jan204/PlayPuls-Updates/blob/main/PATCHNOTES_1.0.0.2.md).
 
 ## PlayPuls Mod separat aktualisieren
 
