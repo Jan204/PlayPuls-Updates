@@ -2,18 +2,22 @@
 
 Die PlayPuls-App für **Windows 64-Bit (x64)** verbindet deinen PC und die PlayPuls-Mod für Landwirtschafts-Simulator 25 mit deiner PlayPuls-Community. Eine 32-Bit-Ausgabe wird nicht angeboten.
 
-**Aktuelle Version: 1.0.0.2.** Das Setup und das
+**Aktuelle Version: 1.0.0.3.** Das Setup und das
 Portable-Paket enthalten die PlayPuls-Mod 0.0.0.9 und die vollständige
 Versionshistorie als `readme.html` und `readme.txt`. Die HTML-Übersicht
 ist am Ende der Installation und unter **Info & Hilfe → Version** erreichbar.
 
-[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Öffentlich verfügbare Version](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung für 1.0.0.2](INSTALLATION.md)
+[Programm, Bilder und FAQ](https://play-puls.de/ls-tool) · [Öffentlich verfügbare Version](https://github.com/Jan204/PlayPuls-Updates/releases/latest) · [Installationsanleitung für 1.0.0.3](INSTALLATION.md)
 
 ## So funktioniert die Verbindung
 
 ![So kommunizieren App, Tool und PlayPuls-Server](assets/playpuls-verbindung-einfach-erklaert.jpeg)
 
 Für Online-Funktionen arbeiten App und Mod zusammen. Die Mod kann Aufgaben, Handel und den lokalen Fuhrpark auch offline ohne App und ohne Code verwenden. Offline-Planungen bleiben lokal, bis du sie nach einer späteren Verbindung ausdrücklich zur Übertragung bestätigst.
+
+## Neu in 1.0.0.3
+
+Nach Start oder Stopp zählt PlayPuls drei Sekunden herunter und aktualisiert den Serverstatus und die Modangebote. Beim Modupdate berechnet die App die Prüfsumme der alten ZIP direkt während der Übertragung. Dadurch entfällt die lokale Sicherungsdatei. [Patchnotes 1.0.0.3](PATCHNOTES_1.0.0.3.md)
 
 ## Neu in 1.0.0.2
 
@@ -36,6 +40,7 @@ dem ersten Abgleich zur Bestätigung an. [Patchnotes 1.0.0](PATCHNOTES_1.0.0.md)
 
 ## Versionshistorie
 
+- [1.0.0.3](PATCHNOTES_1.0.0.3.md)
 - [1.0.0.2](PATCHNOTES_1.0.0.2.md)
 - [1.0.0.1](PATCHNOTES_1.0.0.1.md)
 - [1.0.0](PATCHNOTES_1.0.0.md)
@@ -64,7 +69,7 @@ Welche Daten und Aktionen verfügbar sind, hängt von deiner Discord-Community, 
 
 ## Download und Installation
 
-Der Installer und das Portable-Paket für 1.0.0.2 setzen Windows mit 64 Bit voraus. Für das Portable-Paket den gesamten Inhalt entpacken und anschließend `PlayPuls.exe` öffnen. Die öffentlich verfügbaren Pakete stehen bei den [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest).
+Der Installer und das Portable-Paket für 1.0.0.3 setzen Windows mit 64 Bit voraus. Für das Portable-Paket den gesamten Inhalt entpacken und anschließend `PlayPuls.exe` öffnen. Die öffentlich verfügbaren Pakete stehen bei den [Downloads](https://github.com/Jan204/PlayPuls-Updates/releases/latest).
 
 [Zur Installation und Einrichtung der veröffentlichten Version](https://github.com/Jan204/PlayPuls-Updates/blob/main/INSTALLATION.md)
 
@@ -108,6 +113,14 @@ Private Online-Daten aus dem App-Cache erfordern weiterhin eine aktuelle Rechtep
 - [GamePuls](https://dein-gamepuls.de): Gaming-News, Guides und Tests rund ums Gaming.
 
 ## Hilfe
+
+### VirusTotal zu PlayPuls 1.0.0.3
+
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Installer](https://www.virustotal.com/gui/file/49d7f0dee893285bcf87b5bbd912560caf377a9f11b676f519da26c1e36b4109) – 1 von 68 Engines meldet einen Verdacht.
+
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Programmdatei](https://www.virustotal.com/gui/file/e514b75b0614aac30bb2b6699f75167a8e7ce5b886267114a3eab49d73dbd56c) – 2 von 65 Engines melden einen Verdacht.
+
+Die drei aktuellen Fundnamen wurden bereits bei 1.0.0.2 gemeldet. Skyhigh (SWG) hatte bei der Programmdatei diesmal eine Zeitüberschreitung. [Fundnamen und Prüfdetails](VIRUSTOTAL_1.0.0.3.md)
 
 ### VirusTotal zu PlayPuls 1.0.0.2
 
