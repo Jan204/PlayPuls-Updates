@@ -19,6 +19,8 @@ Für Online-Funktionen arbeiten App und Mod zusammen. Die Mod kann Aufgaben, Han
 
 Nach Start oder Stopp zählt PlayPuls drei Sekunden herunter und aktualisiert den Serverstatus und die Modangebote. Beim Modupdate berechnet die App die Prüfsumme der alten ZIP direkt während der Übertragung. Dadurch entfällt die lokale Sicherungsdatei. [Patchnotes 1.0.0.3](PATCHNOTES_1.0.0.3.md)
 
+PlayPuls zeigt ein beim Start gefundenes Programmupdate automatisch an, sobald laufende Aktionen abgeschlossen sind. Wer bereits die erste Fassung von 1.0.0.3 installiert hat, kann das korrigierte Setup manuell darüber installieren.
+
 ## Neu in 1.0.0.2
 
 PlayPuls fragt vor Tool-Downloads nach, merkt sich die Freigabe für denselben lokalen Spielstand und öffnet bei Bedarf das Webformular „Localer Dedi Server“. Bei kurzzeitig gesperrten Antwortdateien versucht PlayPuls den Austausch erneut. [Patchnotes 1.0.0.2](PATCHNOTES_1.0.0.2.md) · [Mod 0.0.0.9](PATCHNOTES_MOD_0.0.0.9.md)
@@ -116,11 +118,11 @@ Private Online-Daten aus dem App-Cache erfordern weiterhin eine aktuelle Rechtep
 
 ### VirusTotal zu PlayPuls 1.0.0.3
 
-[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Installer](https://www.virustotal.com/gui/file/49d7f0dee893285bcf87b5bbd912560caf377a9f11b676f519da26c1e36b4109) – 1 von 68 Engines meldet einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Installer](https://www.virustotal.com/gui/file/e5a3aa70f17d25690b6a8b118f2fe7844d313e9ec7bfbbc961349640365fe42e) – 1 von 68 Engines meldet einen Verdacht.
 
-[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Programmdatei](https://www.virustotal.com/gui/file/e514b75b0614aac30bb2b6699f75167a8e7ce5b886267114a3eab49d73dbd56c) – 2 von 65 Engines melden einen Verdacht.
+[VirusTotal-Prüfbericht für PlayPuls 1.0.0.3 – Programmdatei](https://www.virustotal.com/gui/file/a421af9b4f113e4504a243a62d486012abd9733387566927a620263b037c4767) – 2 von 70 Engines melden einen Verdacht.
 
-Die drei aktuellen Fundnamen wurden bereits bei 1.0.0.2 gemeldet. Skyhigh (SWG) hatte bei der Programmdatei diesmal eine Zeitüberschreitung. [Fundnamen und Prüfdetails](VIRUSTOTAL_1.0.0.3.md)
+VirusTotal meldet dieselben drei Fundnamen wie beim ersten Paketstand von 1.0.0.3. [Fundnamen und Prüfdetails](VIRUSTOTAL_1.0.0.3.md)
 
 ### VirusTotal zu PlayPuls 1.0.0.2
 

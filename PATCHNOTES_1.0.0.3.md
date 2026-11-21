@@ -4,3 +4,4 @@
 - „Mods Updaten“ wird freigegeben, sobald der Abruf einen gestoppten Server und verfügbare Modupdates bestätigt und die nötigen Rechte vorliegen.
 - PlayPuls zeigt den Start oder Stopp erst als Erfolg an, wenn das Webinterface den Zielstatus bestätigt.
 - Bei „Mods Updaten“ berechnet PlayPuls die Prüfsumme der installierten ZIP direkt beim Lesen. Der Ablauf legt keine Sicherung der alten Mod ab.
+- PlayPuls zeigt ein beim Start gefundenes Programmupdate automatisch an, sobald laufende Aktionen abgeschlossen sind.
